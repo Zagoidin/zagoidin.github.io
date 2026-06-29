@@ -1,0 +1,31 @@
+[window]
+opacity = 0.5
+
+[window.padding]
+x=8
+y=8
+
+[colors]
+primary.background = "#000000"
+primary.foreground = "#ffffff"
+
+bright.black = "#222222"
+bright.white = "#ffffff"
+bright.red = "#ff0050"
+bright.green = "#00ff00"
+bright.blue = "#0000ff"
+bright.yellow = "#ffff00"
+bright.magenta = "#ff00ff"
+bright.cyan = "#00ffff"
+
+normal.black = "#000000"
+normal.white = "#dddddd"
+normal.red = "#dd0045"
+normal.green = "#44dd00"
+normal.blue = "#2255ee"
+normal.yellow = "#ffcc00"
+normal.magenta = "#cc00cc"
+normal.cyan = "#00ccdd"
+[font]
+normal = {family="HackNerdFont", style="Regular"}
+size = 8.6
