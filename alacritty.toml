@@ -1,0 +1,43 @@
+[window.padding]
+ #
+x               = 10
+y               = 10
+
+[window]
+ #
+opacity         = 0.8
+
+[colors.primary]
+ #
+background      = "#111111"
+foreground      = "#d3e0e2"
+ #
+dim_foreground  = "#8c9bac"
+bright_foreground="#fdf3fd"
+
+[colors.normal]
+ #
+black           = "#001017"
+white           = "#dddddf"
+red             = "#ee0050"
+green           = "#00ff50"
+blue            = "#1160ff"
+yellow          = "#eece00"
+cyan            = "#00dffe"
+magenta         = "#df00bf"
+
+[colors.bright]
+ #
+black           = "#004047"
+white           = "#bbcfdf"
+red             = "#830020"
+green           = "#008056"
+blue            = "#3330df"
+yellow          = "#dd8800"
+cyan            = "#0090ce"
+magenta         = "#a20090"
+
+[colors.cursor]
+ #
+text            = "#000000"
+cursor          = "#8c9bac"

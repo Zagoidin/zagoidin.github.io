@@ -6,11 +6,11 @@ input { keyboard { xkb {
 output "HDMI-A-1" {mode "1920x1080@74.973";}
 output "LVDS-1" {off;}
 layout {
- gaps 4
+ gaps 1
  center-focused-column "on-overflow"
  preset-column-widths {proportion 0.5;}
  default-column-width { proportion 0.5; }
- focus-ring {width 1.5;active-gradient from="rgba(40,116,149,0.3)" to="rgba(39,87,137,0.4)";}
+ focus-ring {width 1;active-color "rgba(255,255,255,0.2)";}
  struts {left 0;right 0;top 0;bottom 0;}
  always-center-single-column;}
  overview {
@@ -25,8 +25,7 @@ animations {slowdown 0.5;}
 binds { // Приложения
  Mod+Return {spawn "alacritty";}
  Mod+D      {spawn "fuzzel";}
- Mod+B      {spawn "firefox";}
-
+ Mod+Home   {spawn-sh "bash /home/z/wp/wp.bash";}
         // Окна
  Mod+O      {toggle-overview;}
  Mod+Q      {close-window;}
